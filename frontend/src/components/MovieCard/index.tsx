@@ -11,7 +11,6 @@ function MovieCard() {
         score: 4.5
     };
 
-
     return (
         <div>
             <img draggable="false" className="dsmovie-movie-card-image" src={movie.image} alt={movie.title} />
