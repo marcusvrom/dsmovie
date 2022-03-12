@@ -66,3 +66,13 @@ input, select {
     background-color: var(--color-primary)!important;
     border: none !important;
 }
+
+@media (max-width: 485px) {
+    .dsmovie-form-btn-container {
+        flex-direction: column !important;
+    }
+
+    .dsmovie-form-btn-container .dsmovie-btn {
+        margin-bottom: 16px;
+    }
+}
