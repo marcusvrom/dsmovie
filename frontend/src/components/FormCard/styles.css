@@ -1,7 +1,9 @@
 .dsmovie-form-container {
     max-width: 480px;
-    margin: 40px auto;
+    margin: 100px auto;
     padding: 20px;
+    box-shadow: 0px 0px 1000px rgba(173 ,101 , 255, 0.2);
+    border-radius: 50px
 }
 
 .dsmovie-form {
@@ -19,15 +21,17 @@
 
 .dsmovie-form-btn-container {
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .dsmovie-movie-card-image {
     width: 100%;
-    border-radius: 8px 8px 0 0;
+    border-radius: 32px 32px 0 0;
 }
 
 .dsmovie-card-bottom-container {
+    background: transparent !important;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -54,4 +58,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+input, select {
+    font-family: 'Hubballi' !important;
+    color: #fff !important;
+    background-color: var(--color-primary)!important;
+    border: none !important;
 }
